@@ -39,11 +39,13 @@ function DekstopComputer({}: any) {
       />
       <div
         id={'iconArea'}
-        className="absolute z-[1] flex h-screen w-screen flex-col flex-wrap items-start py-12 px-2 pt-4"
+        className="absolute z-[1] h-screen w-screen px-2 pt-4"
       >
-        {APPS.map((app) => {
-          return <AppIcon key={app.id} appConfig={app} />;
-        })}
+        <div className='flex flex-col flex-wrap h-screen w-fit'>
+          {APPS.map((app) => {
+            return <AppIcon key={app.id} appConfig={app} />;
+          })}
+        </div>
       </div>
       <div
         id={'windowArea'}

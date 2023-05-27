@@ -12,17 +12,43 @@ export const Utility = () => {
       }}
     >
       <h1 className='text-4xl text-[#0eb3ff] font-bold'>UTILITY</h1>
-      <section>
-        <ul className='flex'>
-          <li className='p-4 w-1/3 shrink-0'>
-            <article>
-              <p></p>
+      <section className='mt-6'>
+        <ul className='flex flex-wrap justify-center'>
+          <li className='py-4 px-6 w-1/3 shrink-0'>
+            <article className='text-center'>
+              <img src="/utilities/blockchain.png" className='h-20 block mx-auto' alt="" />
+              <h4 className='font-semibold text-2xl'>ZKT DApp</h4>
+              <p className=''>Our all-in-one decentralized application allows you to perform on-chain activities securely and privately, thanks to our zero-knowledge underlying infrastructure.</p>
             </article>
           </li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li className='py-4 px-6 w-1/3 shrink-0'>
+            <article className="text-center">
+              <img src="/utilities/shield.png" className='h-20 block mx-auto' alt="" />
+              <h4 className="font-semibold text-2xl">ZK VPN</h4>
+              <p> Maintain anonymity and location privacy with our ZK VPN, ensuring your presence remains untraceable on the blockchain.</p>
+            </article>
+          </li>
+          <li className='py-4 px-6 w-1/3 shrink-0'>
+            <article className="text-center">
+              <img src="/utilities/swap.png" className='h-20 block mx-auto' alt="" />
+              <h4 className="font-semibold text-2xl">ZK SWAP</h4>
+              <p> Swap your assets securely with our ZK Swap protocol, protecting your personal and transactional data from public knowledge.</p>
+            </article>
+          </li>
+          <li className='py-4 px-6 w-1/3 shrink-0'>
+            <article className="text-center">
+              <img src="/utilities/crypto.png" className='h-20 block mx-auto' alt="" />
+              <h4 className="font-semibold text-2xl">ZK Wallet</h4>
+              <p>  Keep your identities and transactions anonymous and secure with our upcoming privacy-focused ZK Wallet, designed exclusively for Web3 interactions.</p>
+            </article>
+          </li>
+          <li className='py-4 px-6 w-1/3 shrink-0'>
+            <article className="text-center">
+              <img src="/utilities/browser.png" className='h-20 block mx-auto' alt="" />
+              <h4 className="font-semibold text-2xl">ZK Browser</h4>
+              <p>Experience a friendly and 100% secure browsing environment with our ZK Browser, leveraging the anonymous ethos of zero-knowledge proofs.</p>
+            </article>
+          </li>
         </ul>
       </section>
     </div>
