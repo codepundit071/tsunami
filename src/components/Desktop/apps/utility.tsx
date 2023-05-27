@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { IWindow } from '../../../lib/hooks/useComputerState';
 import { WebAddress } from '../webBar';
-import { BsGlobe } from "react-icons/bs";
 
 export const Utility = () => {
   return (
@@ -17,7 +16,7 @@ export const Utility = () => {
         <ul className='flex'>
           <li className='p-4 w-1/3 shrink-0'>
             <article>
-              <p><BsGlobe/></p>
+              <p></p>
             </article>
           </li>
           <li></li>
