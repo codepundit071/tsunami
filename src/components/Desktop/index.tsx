@@ -31,7 +31,7 @@ function DekstopComputer({}: any) {
 
   useEffect(() => {
     setOpenWindows(APPS);
-    AOS.init({ once: true,  duration: 1500 });
+    AOS.init({ once: true,  duration: 1000 });
 
   }, []);
 
