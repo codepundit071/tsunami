@@ -49,14 +49,14 @@ export const AppIcon = ({ appConfig }: { appConfig: IWindow }) => {
       >
         <img
           src={icon}
-          className="pointer-events-none h-[32px] w-[32px]"
+          className="pointer-events-none h-11 w-11"
           style={{
             imageRendering: 'pixelated',
           }}
         />
         <div
           className={clsx(
-            'pointer-events-none flex max-w-min items-center justify-center px-2 text-center font-po font-normal',
+            'pointer-events-none flex max-w-min items-center justify-center px-2 text-center -mt-1 font-po font-normal',
             selectedApp?.id === id
               ? 'border border-dashed border-[#fff]/50 bg-[#0b61ff]/25 text-white'
               : 'border border-transparent'

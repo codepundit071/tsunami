@@ -57,7 +57,7 @@ export const Utility = () => {
 
 export const APP_CONFIG: IWindow = {
   id: 'utility',
-  icon: '/icons/apps/zk-snark-info-v1.png',
+  icon: '/desktopIcon/utility.png',
   defaultWidth: '1050px',
   defaultHeight: '600px',
   history: [],

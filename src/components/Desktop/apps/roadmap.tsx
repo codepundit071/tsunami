@@ -51,7 +51,7 @@ export const Roadmap = () => {
 
 export const APP_CONFIG: IWindow = {
   id: 'roadmap',
-  icon: '/icons/apps/zk-snark-info-v1.png',
+  icon: '/desktopIcon/roadmap.png',
   defaultWidth: '1050px',
   defaultHeight: '600px',
   history: [],

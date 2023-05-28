@@ -27,7 +27,7 @@ export const Zktsunami = () => {
 
 export const APP_CONFIG: IWindow = {
   id: 'zktsunami',
-  icon: '/icons/apps/zk-snark-info-v1.png',
+  icon: '/desktopIcon/zktsunami.png',
   defaultWidth: '1050px',
   defaultHeight: '600px',
   history: [],

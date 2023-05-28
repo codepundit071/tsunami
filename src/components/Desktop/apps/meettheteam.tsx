@@ -38,7 +38,7 @@ export const Meettheteam = () => {
 
 export const APP_CONFIG: IWindow = {
   id: 'meettheteam',
-  icon: '/icons/apps/zk-snark-info-v1.png',
+  icon: '/desktopIcon/theteam.png',
   defaultWidth: '1050px',
   defaultHeight: '600px',
   history: [],

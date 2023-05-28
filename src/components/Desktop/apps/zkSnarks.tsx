@@ -262,7 +262,7 @@ export const ZKSnarkInfo = () => {
 
 export const APP_CONFIG: IWindow = {
   id: 'zkSnarkInfo',
-  icon: '/icons/apps/zk-snark-info-v1.png',
+  icon: '/desktopIcon/zk-snarks.png',
   defaultWidth: '1050px',
   defaultHeight: '600px',
   history: [],

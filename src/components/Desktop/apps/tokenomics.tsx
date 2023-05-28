@@ -87,7 +87,7 @@ export const Tokenomics = () => {
 
 export const APP_CONFIG: IWindow = {
   id: 'tokenomics',
-  icon: '/icons/apps/zk-snark-info-v1.png',
+  icon: '/desktopIcon/tokenomics.png',
   defaultWidth: '1050px',
   defaultHeight: '600px',
   history: [],
