@@ -35,13 +35,13 @@ function DekstopComputer({}: any) {
     <div className="relative flex h-screen w-screen flex-col items-center overflow-x-hidden overflow-y-hidden bg-black font-po font-bold text-white">
       <img
         className="absolute z-0 h-screen w-screen"
-        src={'/background.png'}
+        src='/animation/zktsunami.gif'
       />
       <div
         id={'iconArea'}
         className="absolute z-[1] h-screen w-screen px-2 pt-4"
       >
-        <div className='flex flex-col flex-wrap h-screen w-fit'>
+        <div className='flex flex-col flex-wrap h-screen w-fit pb-4'>
           {APPS.map((app) => {
             return <AppIcon key={app.id} appConfig={app} />;
           })}
