@@ -4,19 +4,17 @@ export interface ITeamMember {
   name: string;
   title: string;
   text: string;
+  specialization: string;
   image?: string;
 }
 
 export const TeamMember = ({ name, title, text }: ITeamMember) => {
   return (
     <div className={'flex flex-col'}>
-      <h1 className="text-base font-bold">{name}</h1>
-      {/* <span className="text-sm">{title}</span> */}
+      <h1 className="text-xl font-bold uppercase">{name}</h1>
+      <span className="text-sm leading-5 font-semibold my-2">{title}</span>
       <span
-        className={'max-w-[200px] flex-1 text-justify text-xs'}
-        style={{
-          textAlignLast: 'justify',
-        }}
+        className={'max-w-[200px] flex-1 text-sm'}
       >
         {text}
       </span>
@@ -26,27 +24,31 @@ export const TeamMember = ({ name, title, text }: ITeamMember) => {
 
 export const TEAM: ITeamMember[] = [
   {
-    name: 'David Chen',
-    title: 'Co-founder and Lead Cryptographer',
-    text: ' A seasoned Full Stack Developer with a proven track record in developing and maintaining cutting-edge crypto trading platforms. With his extensive experience, David brings a deep understanding of the technical aspects and intricacies of the blockchain industry.',
+    name: 'Drifter ',
+    title: 'Founder and Full Stack Developer',
+    specialization: 'Full-Stack Development',
+    text: ' Drifter, our visionary founder, brings extensive experience and expertise in full-stack development, ensuring our projects meet the highest standards of quality and functionality.',
     image: '/images/kanagawa.png',
   },
   {
-    name: 'Dr. Sarah Lee',
-    title: 'Co-founder',
-    text: " An esteemed Cryptocurrency Economist who specializes in analyzing the economic impact of cryptocurrencies. Dr. Lee's expertise provides valuable insights into the financial dynamics of the crypto market, helping us shape effective strategies and solutions.",
+    name: 'Tsunami',
+    title: 'Community Head and Back-End Developer',
+    specialization: 'Back-End Development',
+    text: "Tsunami, our community-driven back-end developer, leads engagement and relationship-building efforts, ensuring a valuable and inclusive experience for our users and supporters.",
     image: '/images/drifter.png',
   },
   {
-    name: 'Mark Thompson',
-    title: 'Senior Researcher',
-    text: "A seasoned Blockchain Business Strategist with a wealth of experience in developing successful business strategies for blockchain projects. Mark's strategic vision and industry knowledge are instrumental in driving the growth and success of ZKTsunami.",
+    name: 'Surfer',
+    title: 'Outreach and Partnerships Manager',
+    specialization: 'Business Development and Partnerships',
+    text: "Surfer, our dynamic team member, drives outreach and strategic partnerships, expanding our network and forging alliances that drive growth and success.",
     image: '/images/surfer.png',
   },
   {
-    name: 'Kevin Lee',
-    title: 'Junior Researcher',
-    text: "An experienced Cryptocurrency Trader with a strong background in trading and managing crypto assets. Kevin's expertise in the dynamic world of cryptocurrencies enables us to navigate the market effectively and make informed decisions.",
+    name: 'Kanagawa',
+    title: 'Full-Stack Developer and UI/UX Designer',
+    specialization: 'Full-Stack Development, UI/UX Design',
+    text: "Kanagawa excels in full-stack development and UI/UX design, ensuring seamless functionality and visually appealing designs for our projects. Our talented team combines their expertise to deliver exceptional results. With a strong foundation of skills and a shared commitment to excellence, we are poised for success and invite you to be a part of our journey.",
     image: '/images/kim.png',
   },
 ];

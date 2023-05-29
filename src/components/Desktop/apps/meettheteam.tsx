@@ -24,7 +24,7 @@ export const Meettheteam = () => {
           {TEAM.map((member: ITeamMember) => (
             <div
               key={member.name}
-              className="group flex flex-col w-full items-center justify-between gap-6 overflow-hidden"
+              className="group flex flex-col w-full items-center gap-6 overflow-hidden"
             >
               <img src={member.image} className="h-16 w-16" />
               <TeamMember {...member} />
@@ -42,7 +42,7 @@ export const APP_CONFIG: IWindow = {
   defaultWidth: '1050px',
   defaultHeight: '600px',
   history: [],
-  name: 'TheTeam',
+  name: 'Team',
   actions: 'ALL',
   extraAction: [],
   allowResize: {

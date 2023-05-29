@@ -2,6 +2,10 @@ import React from 'react';
 import { IWindow } from '../../../lib/hooks/useComputerState';
 import { WebAddress } from '../webBar';
 import { TEAM, ITeamMember, TeamMember } from '../../team';
+import { Button } from '../../button';
+import Link from 'next/link';
+import { Twitter } from '../../../icons/twitter';
+import { Telegram } from '../../../icons/telegram';
 
 export const About = () => {
   return (
@@ -49,7 +53,7 @@ export const About = () => {
       </div>
       <div className="flex flex-col">
         <div className="flex flex-col items-center border border-white/50 p-2">
-          <h1 className="text-lg font-bold">
+          <h1 className="text-lg font-bold pb-4">
             <img src='/introduction.png' className='h-6' alt='introduction'/>
           </h1>
           <span
@@ -78,6 +82,20 @@ export const About = () => {
             the transaction amount confidentially. But before we delve into
             ZK-AnonSNARK, we shall distill ZK-SNARK first.
           </span>
+          <div className='flex gap-4 pt-8'>
+            <Link href="https://app.uniswap.org/#/swap?outputCurrency=0x76fca1adb104770b38581b64d55e67fa5a0f3966">
+              <Button><span className='font-semibold inline-block px-4'>Buy Now</span></Button>
+            </Link>
+            <Link href="http://dextools.io/app/ether/pair-explorer/0x8AeB846614f63342fdf2dB8865c930B5257F21f0">
+              <Button><span className='font-semibold inline-block px-4'>Chart</span></Button>
+            </Link>
+            <Link href="https://t.co/UeO1ZhEB8E">
+              <Button><span className='font-semibold gap-2 px-4 flex items-center'>Telegram <Telegram className={'h-[14px] w-[14px]'} /></span></Button>
+            </Link>
+            <Link href="https://twitter.com/ZKTsunami">
+              <Button><span className='font-semibold gap-2 px-4 flex items-center'>Twitter <Twitter className={'h-[14px] w-[14px]'} /></span></Button>
+            </Link>
+          </div>
         </div>
         <div className="flex flex-col p-2">
           <h1 className="text-lg font-bold">Team</h1>

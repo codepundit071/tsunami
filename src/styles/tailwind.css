@@ -14,11 +14,15 @@
     @apply text-lg p-4 border-b-2 border-white
   }
   .answer{
-    @apply text-sm px-4 leading-loose overflow-hidden transition-all
+    @apply text-base px-4 leading-loose overflow-hidden transition-all
   }
   .opener{
     @apply text-2xl cursor-pointer float-right
   }
+}
+
+:root{
+  scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar {

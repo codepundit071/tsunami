@@ -11,7 +11,7 @@ export const Utility = () => {
           'inset -1px -1px 0 0 #dedcde, inset 1px 1px 0 0 #a099a1, inset -2px -2px 0 0 #cac6cb, inset 2px 2px 0 0 #464147',
       }}
     >
-      <h1 className='text-4xl text-[#0eb3ff] font-bold'>UTILITY</h1>
+      <h1 className='text-4xl text-primary-blue font-bold'>UTILITY</h1>
       <section className='mt-6'>
         <ul className='flex flex-wrap justify-center'>
           <li className='py-4 px-6 w-1/3 shrink-0'>

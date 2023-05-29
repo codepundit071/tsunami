@@ -45,6 +45,7 @@ module.exports = {
         primary: '#09090B',
         lic: '#08010E',
         secondary: '#222228',
+        'primary-blue': "#0eb3ff"
       },
       letterSpacing: {
         button: '.2rem',

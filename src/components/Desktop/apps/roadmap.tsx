@@ -27,20 +27,46 @@ export const Roadmap = () => {
             <img src="/coins.png" alt="Coins" className='absolute top-1/3 left-1/3 h-24' />
           <article className='w-[600px] mx-auto text-lg'>
             <div className='tokenomics tokenomics-desktop border-white'>
-              <h4 className='font-semibold'>Q2, 2023: ZK VPN Launch:</h4>
-              <p> Embark on the ZKTsunami journey with the launch of our groundbreaking ZK VPN. Experience unparalleled anonymity in terms of location as you bid farewell to concerns about traceability, ushering in a new era of privacy within the blockchain.</p>
+              <h4 className='font-semibold'>Phase 1: (Q2)</h4>
+              <ul>
+                <li>* Launch secure ZkVPN</li>
+                <li>* Conduct extensive testing</li>
+                <li>* Seamless integration into web ecosystem</li>
+                <li>* Improve user interface</li>
+                <li>* Provide multi-platform support</li>
+              </ul>
             </div>
             <div className='tokenomics tokenomics-desktop border-white'>
-              <h4 className='font-semibold'>Q3, 2023: Mixer Launches:</h4>
-              <p>Witness the unveiling of ZKTsunami's innovative mixer, empowering you to mix and obscure your transactions. This milestone reinforces our commitment to revolutionizing privacy in DeFi, providing a secure haven for your financial activities.</p>
+              <h4 className='font-semibold'>Phase 2: (Q3)</h4>
+              <ul>
+                <li>* Develop and launch Mixer feature</li>
+                <li>* Thorough testing and security audits</li>
+                <li>* Implement advanced encryption techniques</li>
+                <li>* Enable integration with cryptocurrencies</li>
+                <li>* Customizable mixing options</li>
+              </ul>
             </div>
             <div className='tokenomics tokenomics-desktop border-white'>
-              <h4 className='font-semibold'>Q4, 2023: Browser and Privacy Swap Launch:</h4>
-              <p>Prepare for the next wave of privacy solutions as ZKTsunami introduces its secure browser and privacy swap functionalities. Explore the web with confidence, knowing that your interactions are shielded from prying eyes. Seamlessly swap tokens while protecting your personal and transactional data from public knowledge.</p>
+              <h4 className='font-semibold'>Phase 3: (Q4)</h4>
+              <ul>
+                <li>* Develop and refine Privacy Swap feature</li>
+                <li>* Rigorous testing and security audits</li>
+                <li>* Implement automated privacy protocols</li>
+                <li>* Support wide range of tokens</li>
+                <li>* Real-time transaction monitoring</li>
+              </ul>
             </div>
             <div className='tokenomics tokenomics-desktop border-white'>
-              <h4 className='font-semibold'>Q4, 2024: Privacy Wallet Launch:</h4>
-              <p>Embrace the ultimate privacy-centric wallet as ZKTsunami unveils its state-of-the-art solution. With our wallet, your identities and transactions are rendered anonymous and secure, ensuring a truly decentralized and private experience within the Web3 ecosystem.</p>
+              <h4 className='font-semibold'>Phase 4: (Q1 2024)</h4>
+              <ul>
+                <li>* Develop and release Privacy Wallet</li>
+                <li>* Thorough testing and security audits</li>
+                <li>* Protections Shielded Against Hackers, Exploiters, and Bad Actors on Network</li>
+                <li>*  ZKTsunami Polygon & FTM Launch</li>
+                <li>* Implement advanced encryption</li>
+                <li>* Integrate Binance Smart Chain (BSC)</li>
+                <li>* Easy token management within the Privacy Wallet</li>
+              </ul>
             </div> 
           </article>
         </div>
