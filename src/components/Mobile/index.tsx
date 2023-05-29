@@ -136,26 +136,19 @@ export const MobileScreen = () => {
                 textAlignLast: 'justify',
               }}
             >
-              Digital anonymity has been one of the core values of blockchain
-              technology. As a result, various crypto protocols have imbibed
-              this idea into their operating mechanism. Prime among these crypto
-              protocols are some unique ones such as Zcash. They adopted a more
-              stringent approach to achieving on-chain anonymity. Of course,
-              this required them to research into more sophisticated
-              cryptographic proofs and tools. With time, some of these protocols
-              noticed the use cases of ZK SNARK in enhancing privacy. It did not
-              take long before they realized that SNARK schemes have some
-              peculiar limitations regarding on-chain identity and throughput.
-              This issue lingered for a long time without no one willing to
-              research and discover a better ZK scheme. We stood up to the task
-              and discovered a more secure ZK scheme that guarantees 100%
-              anonymity. The core technical contribution of ZKTsunami is the
-              implementation and integration of state-of-the-art, setup-free,
-              zero-knowledge, almost constant-size, succinct non-interactive
-              argument of knowledge (ZK-AnonSNARK) schemes which can guarantee
-              both sender and receiver anonymity, and the transaction amount
-              confidentially. But before we delve into ZK-AnonSNARK, we shall
-              distill ZK-SNARK first.
+              Welcome to the world of ZKT, where digital privacy and security take center stage. Our vision is to empower individuals with cutting-edge solutions that prioritize their privacy and safeguard their sensitive information. At ZKT, we are passionate about redefining the digital landscape and ensuring that privacy becomes a fundamental right for everyone.
+
+              Step into our innovative ecosystem and explore a range of transformative products that elevate your digital experience. With our flagship decentralized application, ZKT dApp, you can engage in on-chain activities with unparalleled security and anonymity. Say goodbye to worries and embrace a seamless, fear-free digital journey.
+
+              Experience the true power of privacy with ZKTVPN, our state-of-the-art virtual private network. It not only conceals your online activities but also shields your location, making you untraceable and preserving your anonymity.
+
+              Take control of your digital assets with ZKWallet, our secure and confidential digital wallet. Your transactions and identities remain hidden, ensuring that you have complete ownership and peace of mind.
+
+              Ready to trade? Step into the realm of ZKSwap, our decentralized exchange platform that enables seamless and anonymous token swaps. With privacy at the forefront, your transactions remain confidential, providing you with enhanced security and peace of mind.
+
+              At ZKT, we believe that privacy is not just a luxury; it's a necessity. Our mission is to revolutionize the digital landscape and make privacy accessible to all. Join us on this transformative journey as we redefine digital privacy and security, creating a world where your online presence remains truly yours.
+
+              Welcome to ZKT, where privacy is paramount, and your digital world is secure.
             </span>
           </div>
           {/*TEAM*/}
