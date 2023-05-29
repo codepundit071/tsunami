@@ -51,6 +51,7 @@ export interface IWindow {
   history: [];
   name: string;
   icon: string;
+  link: string;
   actions: 'ALL' | 'MIN' | 'EXIT';
   extraAction: IAction[];
   component: any;

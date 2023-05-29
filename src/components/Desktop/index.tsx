@@ -14,6 +14,7 @@ import AOS from 'aos'
 import 'aos/dist/aos.css';
 
 import { Taskbar } from '../taskbar';
+import { ExternalIcon } from '../desktopApp/indexSocial';
 
 const APPS = [
   METAMASK_CONFIG,
@@ -25,6 +26,39 @@ const APPS = [
   TSUNAMI_CONFIG,
   UTILITY_CONFIG
 ];
+
+const externals = [
+  {
+    id: 1,
+    name: "Chat",
+    icon: "/socials/chart.png",
+    link: "/http://dextools.io/app/ether/pair-explorer/0x8AeB846614f63342fdf2dB8865c930B5257F21f0"
+  },
+  {
+    id: 2,
+    name: "Medium",
+    icon: "/socials/chatr.png",
+    link: "https://zktsunami.medium.com/"
+  },
+  {
+    id: 3,
+    name: "Telegram",
+    icon: "/socials/tele.png",
+    link: "https://t.co/UeO1ZhEB8E"
+  },
+  {
+    id: 4,
+    name: "Twitter",
+    icon: "/socials/twitter.png",
+    link: "https://twitter.com/ZKTsunami"
+  },
+  {
+    id: 5,
+    name: "Buy",
+    icon: "/socials/uniswap.png",
+    link: "https://app.uniswap.org/#/swap?outputCurrency=0x76fca1adb104770b38581b64d55e67fa5a0f3966"
+  }
+]
 
 function DekstopComputer({}: any) {
   const { openWindows, setOpenWindows, taskbarApps } = useComputerState();
@@ -67,7 +101,13 @@ function DekstopComputer({}: any) {
           {APPS.map((app) => {
             return <AppIcon key={app.id} appConfig={app} />;
           })}
+          {externals.map((social)=>{
+            return <ExternalIcon key={social.id} appConfig={social} />
+          })
+
+          }
         </div>
+
       </div>
       <div
         id={'windowArea'}

@@ -63,46 +63,13 @@ export const About = () => {
             }}
           >
             Welcome to the world of ZKT, where digital privacy and security take center stage. Our vision is to empower individuals with cutting-edge solutions that prioritize their privacy and safeguard their sensitive information. At ZKT, we are passionate about redefining the digital landscape and ensuring that privacy becomes a fundamental right for everyone.
-
             Step into our innovative ecosystem and explore a range of transformative products that elevate your digital experience. With our flagship decentralized application, ZKT dApp, you can engage in on-chain activities with unparalleled security and anonymity. Say goodbye to worries and embrace a seamless, fear-free digital journey.
-
             Experience the true power of privacy with ZKTVPN, our state-of-the-art virtual private network. It not only conceals your online activities but also shields your location, making you untraceable and preserving your anonymity.
-
             Take control of your digital assets with ZKWallet, our secure and confidential digital wallet. Your transactions and identities remain hidden, ensuring that you have complete ownership and peace of mind.
-
             Ready to trade? Step into the realm of ZKSwap, our decentralized exchange platform that enables seamless and anonymous token swaps. With privacy at the forefront, your transactions remain confidential, providing you with enhanced security and peace of mind.
-
             At ZKT, we believe that privacy is not just a luxury; it's a necessity. Our mission is to revolutionize the digital landscape and make privacy accessible to all. Join us on this transformative journey as we redefine digital privacy and security, creating a world where your online presence remains truly yours.
-
             Welcome to ZKT, where privacy is paramount, and your digital world is secure.
           </span>
-          <div className='flex gap-4 pt-8'>
-            <Link href="https://app.uniswap.org/#/swap?outputCurrency=0x76fca1adb104770b38581b64d55e67fa5a0f3966">
-              <Button><span className='font-semibold inline-block px-4'>Buy Now</span></Button>
-            </Link>
-            <Link href="http://dextools.io/app/ether/pair-explorer/0x8AeB846614f63342fdf2dB8865c930B5257F21f0">
-              <Button><span className='font-semibold inline-block px-4'>Chart</span></Button>
-            </Link>
-            <Link href="https://t.co/UeO1ZhEB8E">
-              <Button><span className='font-semibold gap-2 px-4 flex items-center'>Telegram <Telegram className={'h-[14px] w-[14px]'} /></span></Button>
-            </Link>
-            <Link href="https://twitter.com/ZKTsunami">
-              <Button><span className='font-semibold gap-2 px-4 flex items-center'>Twitter <Twitter className={'h-[14px] w-[14px]'} /></span></Button>
-            </Link>
-          </div>
-        </div>
-        <div className="flex flex-col p-2">
-          <h1 className="text-lg font-bold">Team</h1>
-          <div className="flex flex-row flex-wrap justify-between gap-2">
-            {TEAM.slice(0, 3).map((teamMember: ITeamMember) => {
-              return <TeamMember {...teamMember} />;
-            })}
-          </div>
-          <div className="flex flex-row flex-wrap justify-around gap-2">
-            {TEAM.slice(3, TEAM.length).map((teamMember: ITeamMember) => {
-              return <TeamMember {...teamMember} />;
-            })}
-          </div>
         </div>
       </div>
     </div>

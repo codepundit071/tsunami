@@ -27,19 +27,30 @@ export const Roadmap = () => {
             <img src="/coins.png" alt="Coins" className='absolute top-1/3 left-1/3 h-24' />
           <article className='w-[600px] mx-auto text-lg'>
             <div className='tokenomics tokenomics-desktop border-white'>
-              <h4 className='font-semibold'>Phase 1: (Q2)</h4>
+              <h4 className='font-semibold'>Phase 1:</h4>
+              <ul>
+                <li>* Launch ZKTsunami</li>
+                <li>* Whitepaper release</li>
+                <li>* Hold AMAs discussing on the project</li>
+                <li>* Inject 100k+ into the liquidity</li>
+                <li>* Build a concept and community around privacy </li>
+              </ul>
+            </div>
+            <div className='tokenomics tokenomics-desktop border-white'>
+              <h4 className='font-semibold'>Phase 2: (Q2)</h4>
               <ul>
                 <li>* Launch secure ZkVPN</li>
                 <li>* Conduct extensive testing</li>
                 <li>* Seamless integration into web ecosystem</li>
                 <li>* Improve user interface</li>
                 <li>* Provide multi-platform support</li>
+                <li>* Launch V2 website</li>
               </ul>
             </div>
             <div className='tokenomics tokenomics-desktop border-white'>
-              <h4 className='font-semibold'>Phase 2: (Q3)</h4>
+              <h4 className='font-semibold'>Phase 3: (Q3)</h4>
               <ul>
-                <li>* Develop and launch Mixer feature</li>
+                <li>* In-development and launch Mixer feature</li>
                 <li>* Thorough testing and security audits</li>
                 <li>* Implement advanced encryption techniques</li>
                 <li>* Enable integration with cryptocurrencies</li>
@@ -47,7 +58,7 @@ export const Roadmap = () => {
               </ul>
             </div>
             <div className='tokenomics tokenomics-desktop border-white'>
-              <h4 className='font-semibold'>Phase 3: (Q4)</h4>
+              <h4 className='font-semibold'>Phase 4: (Q4)</h4>
               <ul>
                 <li>* Develop and refine Privacy Swap feature</li>
                 <li>* Rigorous testing and security audits</li>
@@ -55,14 +66,14 @@ export const Roadmap = () => {
                 <li>* Support wide range of tokens</li>
                 <li>* Real-time transaction monitoring</li>
               </ul>
-            </div>
+            </div> 
             <div className='tokenomics tokenomics-desktop border-white'>
-              <h4 className='font-semibold'>Phase 4: (Q1 2024)</h4>
+              <h4 className='font-semibold'>Phase 5: (Q1 2024)</h4>
               <ul>
                 <li>* Develop and release Privacy Wallet</li>
                 <li>* Thorough testing and security audits</li>
                 <li>* Protections Shielded Against Hackers, Exploiters, and Bad Actors on Network</li>
-                <li>*  ZKTsunami Polygon & FTM Launch</li>
+                <li>* ZKTsunami Polygon & FTM Launch</li>
                 <li>* Implement advanced encryption</li>
                 <li>* Integrate Binance Smart Chain (BSC)</li>
                 <li>* Easy token management within the Privacy Wallet</li>
