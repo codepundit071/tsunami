@@ -34,7 +34,7 @@ export const MobileScreen = () => {
       >
         {/* HANDLE */}
         <div
-          className="handle flex w-full flex-row items-center justify-between px-1"
+          className="handle flex w-full flex-row items-center justify-between px-1 shrink-0"
           style={{
             background:
               'linear-gradient(90deg, rgb(43 70 255), rgb(159 155 255), rgb(84 84 219), rgb(105 96 255))',
@@ -60,7 +60,7 @@ export const MobileScreen = () => {
           </div>
         </div>
         {/* NAV */}
-        <div className="flex flex-row items-center gap-2 px-2 text-sm">
+        <div className="flex flex-row items-center justify-center gap-2 px-2 text-sm">
           <a className="p-1" href={'#about'}>
             About
           </a>
@@ -78,15 +78,6 @@ export const MobileScreen = () => {
             href={'#utilities'}
           >
             Utilities
-          </a>
-          <a href='https://t.co/UeO1ZhEB8E'>
-            <Telegram className={'h-[14px] w-[14px]'} />
-          </a>
-          <a href="https://twitter.com/ZKTsunami">
-            <Twitter className={'h-[14px] w-[14px]'} />
-          </a>
-          <a href="http://dextools.io/app/ether/pair-explorer/0x8AeB846614f63342fdf2dB8865c930B5257F21f0">
-            <Etherscan className={'h-[14px] w-[14px]'} />
           </a>
         </div>
         {/* CONTENT */}
@@ -379,6 +370,18 @@ export const MobileScreen = () => {
               </div>
             </article>
           </section>
+          {/* Footer  */}
+          <footer className='flex flex-row items-center gap-8 px-2 py-3 text-sm shrink-0'>
+            <a href='https://t.co/UeO1ZhEB8E'>
+              <Telegram className={'h-5 w-5'} />
+            </a>
+            <a href="https://twitter.com/ZKTsunami">
+              <Twitter className={'h-5 w-5'} />
+            </a>
+            <a href="http://dextools.io/app/ether/pair-explorer/0x8AeB846614f63342fdf2dB8865c930B5257F21f0">
+              <Etherscan className={'h-5 w-5'} />
+            </a>
+          </footer>
         </div>
       </div>
     </div>
