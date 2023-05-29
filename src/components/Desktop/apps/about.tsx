@@ -1,11 +1,6 @@
 import React from 'react';
 import { IWindow } from '../../../lib/hooks/useComputerState';
 import { WebAddress } from '../webBar';
-import { TEAM, ITeamMember, TeamMember } from '../../team';
-import { Button } from '../../button';
-import Link from 'next/link';
-import { Twitter } from '../../../icons/twitter';
-import { Telegram } from '../../../icons/telegram';
 
 export const About = () => {
   return (
