@@ -37,7 +37,7 @@ export const Roadmap = () => {
               </ul>
             </div>
             <div className='tokenomics tokenomics-desktop border-white'>
-              <h4 className='font-semibold'>Phase 2: (Q2)</h4>
+              <h4 className='font-semibold'>Phase 2: (Q2 2023)</h4>
               <ul>
                 <li>* Launch secure ZkVPN</li>
                 <li>* Conduct extensive testing</li>
@@ -48,7 +48,7 @@ export const Roadmap = () => {
               </ul>
             </div>
             <div className='tokenomics tokenomics-desktop border-white'>
-              <h4 className='font-semibold'>Phase 3: (Q3)</h4>
+              <h4 className='font-semibold'>Phase 3: (Q3 2023)</h4>
               <ul>
                 <li>* In-development and launch Mixer feature</li>
                 <li>* Thorough testing and security audits</li>
@@ -58,7 +58,7 @@ export const Roadmap = () => {
               </ul>
             </div>
             <div className='tokenomics tokenomics-desktop border-white'>
-              <h4 className='font-semibold'>Phase 4: (Q4)</h4>
+              <h4 className='font-semibold'>Phase 4: (Q4 2023)</h4>
               <ul>
                 <li>* Develop and refine Privacy Swap feature</li>
                 <li>* Rigorous testing and security audits</li>

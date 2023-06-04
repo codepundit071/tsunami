@@ -10,6 +10,8 @@ import { APP_CONFIG as ROAD_CONFIG } from './apps/roadmap';
 import { APP_CONFIG as TEAM_CONFIG } from './apps/meettheteam';
 import { APP_CONFIG as TSUNAMI_CONFIG } from './apps/zktsunami';
 import { APP_CONFIG as UTILITY_CONFIG } from './apps/utility';
+import { APP_CONFIG as DOWNLOAD_CONFIG } from './apps/downloads';
+
 import AOS from 'aos'
 import 'aos/dist/aos.css';
 
@@ -24,7 +26,8 @@ const APPS = [
   ROAD_CONFIG,
   TEAM_CONFIG,
   TSUNAMI_CONFIG,
-  UTILITY_CONFIG
+  UTILITY_CONFIG,
+  DOWNLOAD_CONFIG
 ];
 
 const externals = [
