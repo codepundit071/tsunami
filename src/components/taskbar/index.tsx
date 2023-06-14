@@ -3,6 +3,7 @@ import { Button } from '../button';
 import { IWindow, useComputerState } from '../../lib/hooks/useComputerState';
 import { TaskbarApp } from './app';
 import { Time } from '../time';
+import Start from './start';
 
 export const Taskbar = () => {
   const { taskbarApps, activeWindow } = useComputerState();
@@ -15,12 +16,13 @@ export const Taskbar = () => {
           'rgb(70, 65, 71) -1px -1px 0px 0px inset, white 1px 1px 0px 0px inset, rgb(160, 153, 161) -2px -2px 0px 0px inset, rgb(222, 220, 222) 2px 2px 0px 0px inset',
       }}
     >
-      <Button>
+      {/* <Button>
         <img src={'/icons/apps/start.png'} className="w-[20px]" />
         <span className="ml-1 font-po text-sm font-bold tracking-[-1px]">
           Start
         </span>
-      </Button>
+      </Button> */}
+      <Start />
       <div className="taskbarContainer flex h-[32px] flex-1 gap-1">
         {taskbarApps?.map((window: IWindow) => {
           return <TaskbarApp key={window.id} app={window} />;
