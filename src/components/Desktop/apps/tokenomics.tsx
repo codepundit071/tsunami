@@ -52,7 +52,7 @@ export const Tokenomics = () => {
           </section>
           <section className='relative pb-20 z-10'>
             <img src="/token-topper-v1.png" alt="Coins" className='absolute bottom-0 -z-10 left-0 w-full'/>
-            <h2 className='text-center text-7xl font-bold text-white leading-loose'>TOKEN TEIR SYSTEM</h2>
+            <h2 className='text-center text-7xl font-bold text-white leading-loose'>TOKEN TIER SYSTEM</h2>
             <div className='bg-black py-4'>
               <article className="grid grid-cols-3 text-center border-2 border-white ">
                 <div className='py-4 border-r-2 border-white'>

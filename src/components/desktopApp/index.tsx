@@ -56,13 +56,14 @@ export const AppIcon = ({ appConfig }: { appConfig: IWindow }) => {
         />
         <div
           className={clsx(
-            'pointer-events-none flex max-w-min items-center justify-center px-2 text-xl uppercase text-center -mt-1 font-po font-normal',
+            'pointer-events-none flex max-w-min items-center justify-center px-2 text-xl uppercase text-center  -mt-1 font-po font-normal',
             selectedApp?.id === id
               ? 'border border-dashed border-[#fff]/50 bg-[#0b61ff]/25 text-white'
               : 'border border-transparent'
           )}
           style={{
             textShadow: 'black 0px 1px 1px',
+            whiteSpace:  name === "Connection Wizard" ? undefined : 'pre'
           }}
         >
           {name}

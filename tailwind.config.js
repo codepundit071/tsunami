@@ -107,7 +107,7 @@ module.exports = {
         },
       },
       backgroundImage: {
-        'hero': "url('/background.png')",
+        'hero': "url('/background.gif')",
         'hero-grad': "linear-gradient(300deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('/background.png');",
         'pixel-art': "url('/pixel_art.png')"
       }

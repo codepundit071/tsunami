@@ -53,17 +53,21 @@ export const About = () => {
           </h1>
           <span
             className={'max-w-[800px] flex-1 text-justify'}
-            style={{
-              textAlignLast: 'justify',
-            }}
           >
-            Welcome to the world of ZKT, where digital privacy and security take center stage. Our vision is to empower individuals with cutting-edge solutions that prioritize their privacy and safeguard their sensitive information. At ZKT, we are passionate about redefining the digital landscape and ensuring that privacy becomes a fundamental right for everyone.
-            Step into our innovative ecosystem and explore a range of transformative products that elevate your digital experience. With our flagship decentralized application, ZKT dApp, you can engage in on-chain activities with unparalleled security and anonymity. Say goodbye to worries and embrace a seamless, fear-free digital journey.
-            Experience the true power of privacy with ZKTVPN, our state-of-the-art virtual private network. It not only conceals your online activities but also shields your location, making you untraceable and preserving your anonymity.
-            Take control of your digital assets with ZKWallet, our secure and confidential digital wallet. Your transactions and identities remain hidden, ensuring that you have complete ownership and peace of mind.
-            Ready to trade? Step into the realm of ZKSwap, our decentralized exchange platform that enables seamless and anonymous token swaps. With privacy at the forefront, your transactions remain confidential, providing you with enhanced security and peace of mind.
-            At ZKT, we believe that privacy is not just a luxury; it's a necessity. Our mission is to revolutionize the digital landscape and make privacy accessible to all. Join us on this transformative journey as we redefine digital privacy and security, creating a world where your online presence remains truly yours.
-            Welcome to ZKT, where privacy is paramount, and your digital world is secure.
+            {/* <p className='pb-2'>Welcome to the world of ZKT, where digital privacy and security take center stage. Our vision is to empower individuals with cutting-edge solutions that prioritize their privacy and safeguard their sensitive information. At ZKT, we are passionate about redefining the digital landscape and ensuring that privacy becomes a fundamental right for everyone.is secure</p>
+            <p className='pb-2'>Step into our innovative ecosystem and explore a range of transformative products that elevate your digital experience. With our flagship decentralized application, ZKT dApp, you can engage in on-chain activities with unparalleled security and anonymity. Say goodbye to worries and embrace a seamless, fear-free digital journey.is secure</p>
+            <p className='pb-2'>Experience the true power of privacy with ZKTVPN, our state-of-the-art virtual private network. It not only conceals your online activities but also shields your location, making you untraceable and preserving your anonymity.is secure</p>
+            <p className='pb-2'>Take control of your digital assets with ZKWallet, our secure and confidential digital wallet. Your transactions and identities remain hidden, ensuring that you have complete ownership and peace of mind.is secure</p>
+            <p className='pb-2'>Ready to trade? Step into the realm of ZKSwap, our decentralized exchange platform that enables seamless and anonymous token swaps. With privacy at the forefront, your transactions remain confidential, providing you with enhanced security and peace of mind.is secure</p>
+            <p className='pb-2'>At ZKT, we believe that privacy is not just a luxury; it's a necessity. Our mission is to revolutionize the digital landscape and make privacy accessible to all. Join us on this transformative journey as we redefine digital privacy and security, creating a world where your online presence remains truly yours.is secure</p>
+            <p className='pb-2'>Welcome to ZKT, where privacy is paramount, and your digital world is secure</p> */}
+            <p className='pb-1'>Welcome to ZKT, where privacy and security take center stage. Discover our innovative ecosystem, empowering individuals with cutting-edge solutions that prioritize their privacy and safeguard their sensitive information. </p>
+            <p className='pb-1'>With ZkDapp, engage in on-chain activities with unparalleled security and anonymity. Experience fear-free digital journeys.</p>
+            <p className='pb-1'>Explore ZkVPN, our state-of-the-art virtual private network. Conceal online activities, shield your location, and preserve your anonymity. Embrace true digital freedom.</p>
+            <p className='pb-1'>Take control of your digital assets with ZkWallet, our secure and confidential digital wallet. Transactions and identities remain hidden, ensuring complete ownership and peace of mind.</p>
+            <p className='pb-1'>Trade seamlessly and anonymously with ZkSwap, our decentralized exchange platform. Your transactions remain confidential, providing enhanced security and peace of mind.</p>
+            <p className='pb-1'>At ZKTsunami, privacy is a necessity, not a luxury. Join us as we revolutionize the digital landscape, making privacy accessible to all. </p>
+            <p className='pb-1'>Welcome to a world where your online presence remains truly yours.</p>
           </span>
         </div>
       </div>

@@ -33,9 +33,9 @@ const APPS = [
 const externals = [
   {
     id: 1,
-    name: "Chat",
+    name: "Chart",
     icon: "/socials/chart.png",
-    link: "/http://dextools.io/app/ether/pair-explorer/0x8AeB846614f63342fdf2dB8865c930B5257F21f0"
+    link: "http://dextools.io/app/ether/pair-explorer/0x8AeB846614f63342fdf2dB8865c930B5257F21f0"
   },
   {
     id: 2,
@@ -76,7 +76,7 @@ function DekstopComputer({}: any) {
     <div className="relative flex h-screen w-screen flex-col items-center overflow-x-hidden overflow-y-hidden bg-black font-po font-bold text-white">
       <img
         className="absolute z-0 h-screen w-screen"
-        src='/splitting/zktsunami.png'
+        src='/background.gif'
       />
       <div className='absolute h-screen w-screen z-[1]'>
         <div className='flex items-end absolute bottom-0 left-8'>
@@ -96,11 +96,12 @@ function DekstopComputer({}: any) {
           <img src="/splitting/cloud2.png" data-aos="slide-right" alt="" className="h-56 absolute left-1/2 top-10 -translate-x-1/2" />
         </div>
       </div>
+      <div className="absolute z-[2] h-screen w-screen bg-black/40"></div>
       <div
         id={'iconArea'}
-        className="absolute z-[2] h-screen w-screen px-2 pt-4"
+        className="absolute z-[3] h-screen w-screen px-2 pt-4 pb-3"
       >
-        <div className='flex flex-col flex-wrap h-screen w-fit pb-4'>
+        <div className='flex flex-col flex-wrap h-full w-fit'>
           {APPS.map((app) => {
             return <AppIcon key={app.id} appConfig={app} />;
           })}

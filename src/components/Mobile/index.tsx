@@ -100,7 +100,7 @@ export const MobileScreen = () => {
             <h1 className="text-3xl font-bold">ZKTsunami</h1>
             <img src={'/icons/favicon-128.png'} className="h-[32px] w-[32px]" /> */}
           </div>
-          <div className="flex w-full flex-col px-4 bg-hero bg-contain">
+          <div className="flex w-full flex-col px-4 bg-hero bg-cover">
             <h1 className="w-full text-center text-base font-bold">ZKT — Transforming DeFi into an Era of Utter Anonymity</h1>
             <span
               className={'max-w-full text-justify'}
@@ -344,7 +344,7 @@ export const MobileScreen = () => {
               </div>
               <div className="flex w-full items-center">
                 <h1 className="w-full text-center text-base font-bold">
-                  Token Teir System
+                  Token Tier System
                 </h1>
               </div>
               <div className="flex flex-col items-center justify-between">
@@ -467,7 +467,7 @@ export const MobileScreen = () => {
               <a href="https://twitter.com/ZKTsunami">
                 <Twitter className={'h-5 w-5'} />
               </a>
-              <a href="http://dextools.io/app/ether/pair-explorer/0x8AeB846614f63342fdf2dB8865c930B5257F21f0">
+              <a href="https://etherscan.io/token/0x76fca1adb104770b38581b64d55e67fa5a0f3966">
                 <Etherscan className={'h-5 w-5'} />
               </a>
             </div>
